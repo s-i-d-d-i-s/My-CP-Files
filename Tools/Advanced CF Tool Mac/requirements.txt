@@ -1,0 +1,7 @@
+altgraph==0.17.2
+macholib==1.15.2
+pcpp==1.30
+ply==3.11
+pyastyle==1.1.5
+pyinstaller==4.7
+pyinstaller-hooks-contrib==2021.4
