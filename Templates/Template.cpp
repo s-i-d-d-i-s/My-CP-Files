@@ -3,7 +3,8 @@
 using namespace std;
 
 // Type Redefenition
-#define int long long
+#define int ll
+typedef long long ll;
 #define double long double
 #define pii pair<int,int>
 #define vi vector<int>
@@ -54,6 +55,7 @@ using namespace std;
 #define no cout << "no" <<endl;
 #define accuracy chrono::steady_clock::now().time_since_epoch().count()
 
+//replace_junk
 // Overloaded Ostream Classes
 template<typename F, typename S>
 ostream& operator<<(ostream& os,const pair<F,S> &v){return os << "(" << v.F << ", " << v.S << ")";}
@@ -65,6 +67,7 @@ template < typename T >
 ostream &operator << (ostream &os, const multiset<T> &v){os << "[";oldfor(v){if(it!=v.bg) os << ", ";os<<*it;}return os << "]";}
 template < typename F, typename S >
 ostream &operator <<(ostream & os, const map<F,S> &v){os << "[";oldfor(v){if(it!=v.bg)os<< ", ";os<< it->F<<" = "<<it->S;}return os << "]";}
+//replace_junk
 
 // Constants
 const int MOD = 1000000007;
@@ -73,8 +76,7 @@ const int N = 100000;
 
 int32_t main(){
     ios_base::sync_with_stdio(false);cin.tie(NULL);
-
-
+	
 
 
 
